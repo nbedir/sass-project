@@ -1,0 +1,66 @@
+.Header{
+    background-color:$header-bg; 
+    color: $color;
+    display: flex;
+    align-items: center;
+    height: 40px;
+    padding: 4px;
+    .fa-brands{
+        margin-right: 5px;
+        font-size: 35px;
+    }
+    &-search{
+        position: relative;
+        border:0.2px solid $color;
+        border-radius: 3px;
+        
+        input{
+        background-color: hsla(0, 0%, 100%, .125);
+        width: 250px;
+        height: 22px;
+        font-size: 8px;
+        border: none;
+        border-radius: 2px;
+        color:$color;
+        padding: 7px;
+        }
+      
+
+      svg{
+        position: absolute;
+        right:0px;
+        top:1px;
+    }
+    }
+    &-links{
+        margin-left: 10px;
+        margin-top: -5px;
+        a{
+        text-decoration: none;
+        color: $color;
+        font-family: $font-primary;
+        font-size: 15px;
+        text-align: center;
+        padding: 5px;
+        &:hover{
+            color: rgb(142, 138, 138);
+            
+        }
+        
+        }
+
+    }
+    &-left{
+        margin-left:auto;
+        a{
+            color: #ccc;
+            font-size:15px;
+            margin: 2px;
+            &:hover{
+                color: rgb(142, 138, 138);
+                
+            }
+
+        }
+    }
+}

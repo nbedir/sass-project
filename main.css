@@ -1,0 +1,224 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,600;1,600&family=Roboto:wght@400;500&display=swap");
+.Header {
+  background-color: #0f1012;
+  color: white;
+  display: flex;
+  align-items: center;
+  height: 40px;
+  padding: 4px;
+}
+.Header .fa-brands {
+  margin-right: 5px;
+  font-size: 35px;
+}
+.Header-search {
+  position: relative;
+  border: 0.2px solid white;
+  border-radius: 3px;
+}
+.Header-search input {
+  background-color: hsla(0deg, 0%, 100%, 0.125);
+  width: 250px;
+  height: 22px;
+  font-size: 8px;
+  border: none;
+  border-radius: 2px;
+  color: white;
+  padding: 7px;
+}
+.Header-search svg {
+  position: absolute;
+  right: 0px;
+  top: 1px;
+}
+.Header-links {
+  margin-left: 10px;
+  margin-top: -5px;
+}
+.Header-links a {
+  text-decoration: none;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  text-align: center;
+  padding: 5px;
+}
+.Header-links a:hover {
+  color: rgb(142, 138, 138);
+}
+.Header-left {
+  margin-left: auto;
+}
+.Header-left a {
+  color: #ccc;
+  font-size: 15px;
+  margin: 2px;
+}
+.Header-left a:hover {
+  color: rgb(142, 138, 138);
+}
+
+.main {
+  max-width: 1200px;
+  margin-left: 10%;
+  display: flex;
+}
+.main-about {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+}
+.main-about-image {
+  margin-top: 10%;
+}
+.main-about-image img {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+}
+.main-about-title {
+  font-family: "Open Sans", sans-serif;
+  float: left;
+  font-size: 20px;
+  padding: 5px;
+}
+.main-about-title p {
+  color: rgb(173, 167, 167);
+  font-size: smaller;
+}
+.main-about-dsc {
+  font-family: "Open Sans", sans-serif;
+  font-size: 15px;
+  font-weight: 100;
+}
+.main-about-btn {
+  font-family: "Open Sans", sans-serif;
+  border-radius: 5px;
+  border: 1px solid #CCC;
+  padding: 5px;
+  background-color: white;
+}
+.main-about-btn:hover {
+  background-color: rgba(225, 211, 211, 0.4);
+  color: black;
+  cursor: pointer;
+}
+.main-projects {
+  margin-left: 5%;
+  margin-top: 5%;
+  font-family: "Open Sans", sans-serif;
+  height: auto;
+}
+.main-projects-links {
+  border-bottom: 0.2px solid rgb(171, 165, 165);
+}
+.main-projects-links a {
+  text-decoration: none;
+  color: rgb(112, 107, 107);
+  font-size: 12px;
+  margin: 5px;
+}
+.main-projects-links a:hover {
+  background-color: rgba(225, 211, 211, 0.9);
+  border-radius: 3px;
+  transition: all 1s;
+}
+.main-projects .section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 12px;
+  align-items: center;
+  margin-top: 5%;
+  margin-right: 10%;
+}
+.main-projects .section p {
+  font-size: 15px;
+}
+.main-projects .section a {
+  text-decoration: none;
+  color: black;
+}
+.main-projects .section a:hover {
+  color: rgb(6, 6, 238);
+  transition: all 1s;
+}
+.main-projects-bars {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-top: 2%;
+}
+.main-projects-bars-bar {
+  width: 400px;
+  height: 100px;
+  border: 0.3px solid #CCC;
+  border-radius: 3px;
+  font-family: "Open Sans", sans-serif;
+}
+.main-projects-bars-bar .up {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+  font-size: 16px;
+}
+.main-projects-bars-bar .up a {
+  text-decoration: none;
+  color: blue;
+}
+.main-projects-bars-bar .up a:hover {
+  border-bottom: 1px solid black;
+  color: black;
+}
+.main-projects-bars-bar .up p {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 2px;
+  font-size: 10px;
+  font-weight: 500;
+  color: #CCC;
+}
+.main-projects-bars-bar .down {
+  margin-top: 40px;
+  margin-left: 10px;
+  display: flex;
+  align-items: center;
+  color: #CCC;
+}
+.main-projects-bars-bar .down span {
+  background-color: #563d7c;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+}
+
+.footer {
+  margin-top: 8%;
+  margin-left: 10%;
+  margin-right: 5%;
+  border-top: 1px solid #ccc;
+  padding-top: 3%;
+  display: flex;
+}
+.footer p {
+  font-size: 12px;
+  margin-right: 40px;
+}
+.footer-links {
+  display: flex;
+  gap: 40px;
+}
+.footer-links a {
+  color: blue;
+  text-decoration: none;
+  font-size: 12px;
+}
+.footer-links a:hover {
+  border-bottom: 1px solid blue;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}/*# sourceMappingURL=main.css.map */
